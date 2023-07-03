@@ -1,0 +1,75 @@
+.user-places {
+  display: flex;
+  justify-content: space-between;
+}
+.user-info {
+  width: 23%;
+}
+.profile-user-places {
+  width: 76%;
+}
+
+.profile-wrapper {
+  width: 20%;
+}
+.user-card {
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-card-info {
+  text-align: center;
+}
+.user-card-info h2 {
+  margin: 20px 0px 10px 0px;
+}
+.user-card-info span {
+  font-size: 16px;
+}
+
+.user-card-img {
+  width: 130px;
+  height: 130px;
+}
+
+.user-card-followers {
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  font-size: 17px;
+}
+
+.followers,
+.followings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.close-friends img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.user-card-button {
+  margin: 20px 0px;
+}
+
+.followers-friends {
+  margin: 15px 0;
+}
+@media (max-width: 768px) {
+  .user-places {
+    flex-direction: column;
+  }
+  .user-info {
+    width: 100%;
+  }
+  .profile-user-places {
+    width: 100%;
+  }
+}

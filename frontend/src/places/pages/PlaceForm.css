@@ -1,0 +1,26 @@
+.place-form {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  border-radius: 6px;
+  background: white;
+}
+
+.place-form button {
+  width: 100%;
+}
+.place-form p {
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .add-place-page {
+    flex-direction: column;
+  }
+  .add-place-image,
+  .add-place-form-wrapper {
+    width: 100%;
+  }
+}

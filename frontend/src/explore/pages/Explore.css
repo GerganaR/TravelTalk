@@ -1,0 +1,28 @@
+.explore-page {
+  display: flex;
+  justify-content: space-between;
+}
+.left-explore {
+  width: 35%;
+}
+.right-explore {
+  width: 64%;
+}
+
+@media (max-width: 768px) {
+  .explore-page {
+    flex-direction: column;
+  }
+  .left-explore,
+  .right-explore {
+    width: 100%;
+  }
+  .left-explore {
+    margin-top: 20px;
+    order: 2;
+  }
+  .right-explore {
+    order: 1;
+    height: 400px;
+  }
+}

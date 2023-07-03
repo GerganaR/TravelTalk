@@ -1,0 +1,35 @@
+.add-place-page {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 40px;
+}
+.add-place-form {
+  width: 80%;
+  margin: 0 auto;
+}
+.add-place-img,
+.add-place-form-wrapper {
+  width: 50%;
+  text-align: center;
+}
+.add-place-img img {
+  width: 100%;
+}
+.add-place-page h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+.add-form-group span {
+  position: relative;
+  top: 54px;
+  left: -266px;
+}
+.add-form-group {
+  margin-top: -27px;
+}
+
+.add-place-page button {
+  width: 50%;
+}

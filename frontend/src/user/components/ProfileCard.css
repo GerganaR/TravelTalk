@@ -1,0 +1,113 @@
+/* PROFILE CARD */
+.profile-wrapper {
+  width: 20%;
+}
+.profile-card {
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-card-info {
+  text-align: center;
+}
+.profile-card-info h2 {
+  margin: 20px 0px 10px 0px;
+}
+.profile-card-info span {
+  font-size: 16px;
+}
+
+.profile-card-img {
+  width: 130px;
+  height: 130px;
+}
+
+.profile-card-followers {
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+  padding: 20px;
+  font-size: 17px;
+}
+
+.followers,
+.followings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card-button {
+  margin: 20px 0px;
+}
+
+.friends-wrapper {
+  margin-top: 20px;
+  height: 300px;
+  overflow-y: scroll;
+}
+@media (max-width: 1132px) {
+  .profile-card-followers {
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .profile-card-button a {
+    padding: 0.3rem 1.2rem !important;
+
+    text-align: center;
+    font-size: 14px;
+  }
+}
+@media (max-width: 920px) {
+  .profile-card-img {
+    width: 70px;
+    height: 70px;
+  }
+  .profile-card-info h2 {
+    font-size: 16px;
+  }
+  .profile-card-info span {
+    font-size: 12px;
+  }
+  .profile-card-button a {
+    padding: 0.2rem 1rem !important;
+    font-size: 12px;
+  }
+
+  .profile-card-button {
+    margin: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .profile-card-img {
+    width: 100px;
+    height: 100px;
+  }
+  .profile-wrapper {
+    width: 100%;
+  }
+  .friends-wrapper {
+    margin-bottom: 10px;
+  }
+  .profile-card-info h2 {
+    font-size: 24px;
+  }
+  .profile-card-info span {
+    font-size: 16px;
+  }
+  .profile-card-button a {
+    padding: 0.7rem 1.7rem !important;
+    font-size: 14px;
+  }
+  .profile-card-followers {
+    font-size: 17px;
+  }
+}

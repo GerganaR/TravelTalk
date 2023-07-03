@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #f3f5f8;
+  border: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #aaa;
+}
+/*
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+} */
+/* ::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(left, #22add4, #1e98ba);
+} */
+main {
+  margin-top: 1rem;
+  color: #383e4c;
+}
+html {
+  font-family: "Noto Sans", sans-serif;
+  background: #f3f5f8;
+}
+
+body {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto !important;
+}
+.gray {
+  color: gray;
+}
+
+.slide-in-left-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
